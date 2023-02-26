@@ -51,7 +51,7 @@ const LoginForm = () => {
       <form className={style.LoginForm}>
         {loginFormConfig.map((field) => {
           const fieldData = { ...field, customRegisterParams: {} };
-          if (field.key === 'Email') {
+          if (field.key === 'email') {
             fieldData.customRegisterParams = {
               pattern: {
                 value: /.+@.+\..+/i,

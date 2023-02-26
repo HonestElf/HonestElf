@@ -33,7 +33,7 @@ const AppRouter = () => {
       <AuthProvider>
         <Routes>
           {router.map((route) => (
-            <Route {...route} />
+            <Route {...route} key={route.path} />
           ))}
         </Routes>
       </AuthProvider>
