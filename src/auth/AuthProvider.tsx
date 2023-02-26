@@ -5,21 +5,21 @@ import { useLocalStorage } from './useLocalStorage';
 
 const AuthContext = createContext({
   isLoggedIn: false,
-  login: (data: any) => {},
+  login: () => {},
   logout: () => {},
 });
 
 export const AuthProvider = ({ children }: { children: any }) => {
-  const [isLoggedIn, setIsLoggenIn] = useLocalStorage('user', null);
+  const [isLoggedIn, setIsLoggenIn] = useLocalStorage('isLoggedIn', false);
   const navigate = useNavigate();
 
-  const login = useCallback(async (data: boolean) => {
-    setIsLoggenIn(data);
+  const login = useCallback(async () => {
+    setIsLoggenIn(true);
     navigate(AppPaths.home);
   }, []);
 
   const logout = useCallback(() => {
-    setIsLoggenIn(null);
+    setIsLoggenIn(false);
     navigate(AppPaths.login, { replace: true });
   }, []);
 

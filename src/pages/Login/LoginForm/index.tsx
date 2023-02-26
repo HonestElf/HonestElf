@@ -24,7 +24,7 @@ const LoginForm = () => {
       const result = await mockFetchLogin(values);
 
       if (result === 'success') {
-        auth.login({ isLoggedIn: true });
+        auth.login();
       }
     } catch (error) {
       console.error('Error in form submitting');
@@ -34,6 +34,7 @@ const LoginForm = () => {
   const headBackClickHandle = () => {
     navigate(AppPaths.home);
   };
+  console.log(auth);
 
   if (auth.isLoggedIn) {
     return (
