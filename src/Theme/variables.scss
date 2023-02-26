@@ -1,0 +1,39 @@
+@import './dark';
+@import './light';
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+
+  --system-primary-color: #00c3ff;
+
+  // --background-primary-color: #ffffff;
+  // --background-secondary-color: #23262d;
+
+  // --background-primary-hover: #828387;
+  // --background-secondary-hover: #3c3f47;
+
+  // --text-primary-color: #23262d;
+  // --text-secondary-color: #f3f4f6;
+
+  --color-special-red: #ff1e45;
+
+  --color-disabed: #8a96a8;
+}
+$white: var(--white);
+$black: var(--black);
+
+$system-primary-color: var(--system-primary-color);
+
+$background-primary-color: var(--background-primary-color);
+$background-secondary-color: var(--background-secondary-color);
+
+$background-primary-hover: var(--background-primary-hover);
+$background-secondary-hover: var(--background-secondary-hover);
+
+$text-primary-color: var(--text-primary-color);
+$text-secondary-color: var(--text-secondary-color);
+
+$color-special-red: var(--color-special-red);
+
+$color-disabed: var(--color-disabed);

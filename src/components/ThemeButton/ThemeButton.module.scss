@@ -1,0 +1,29 @@
+@import '../../Theme/variables.scss';
+
+.ThemeButton {
+  cursor: pointer;
+
+  background-color: $background-primary-color;
+  color: $text-primary-color;
+
+  padding: 0.625rem 2.5rem;
+  padding-left: 1.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  column-gap: 0.5rem;
+
+  border-radius: 1rem;
+
+  .CardIcon {
+    height: 1rem;
+    width: 1rem;
+  }
+
+  &:hover {
+    background-color: $background-primary-hover;
+    color: $system-primary-color;
+  }
+}

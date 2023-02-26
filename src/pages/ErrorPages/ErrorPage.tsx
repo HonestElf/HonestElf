@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate, useRouteError } from 'react-router-dom';
 import { AppPaths } from '../../router/routes';
+import style from './ErrorPage.module.scss';
 
 const ErrorPage = () => {
   const error = useRouteError() as { statusText: string; message: string };
@@ -17,7 +18,9 @@ const ErrorPage = () => {
       <p>
         <i>{error.statusText || error.message}</i>
       </p>
-      <button onClick={headBackClickHandle}>Head home</button>
+      <button className={style.ErrorPageButton} onClick={headBackClickHandle}>
+        Head home
+      </button>
     </div>
   );
 };

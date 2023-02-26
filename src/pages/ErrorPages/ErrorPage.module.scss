@@ -1,0 +1,21 @@
+@import '../../Theme/variables';
+
+.NotFoundPageWrapper {
+  color: $text-primary-color;
+  align-self: center;
+}
+
+.ErrorPageButton {
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: $background-secondary-color;
+  color: $text-secondary-color;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  align-self: center;
+  border: none;
+
+  &:hover {
+    background-color: $background-secondary-hover;
+  }
+}

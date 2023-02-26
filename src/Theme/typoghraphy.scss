@@ -1,0 +1,143 @@
+@mixin headers-h1 {
+  font-family: Montserrat;
+  font-style: Bold;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+@mixin headers-h2 {
+  font-family: Montserrat;
+  font-style: Bold;
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+@mixin headers-h3 {
+  font-family: Montserrat;
+  font-style: Bold;
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 1.75rem;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+@mixin headers-h4 {
+  font-family: Montserrat;
+  font-style: Bold;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+@mixin headers-subheader {
+  font-family: Montserrat;
+  font-style: Medium;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+@mixin base-body {
+  font-family: Montserrat;
+  font-style: Medium;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+@mixin base-body-short {
+  font-family: Montserrat;
+  font-style: Medium;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+@mixin base-body-strong {
+  font-family: Montserrat;
+  font-style: Bold;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+@mixin base-small {
+  font-family: Montserrat;
+  font-style: Medium;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+@mixin base-small-short {
+  font-family: Montserrat;
+  font-style: Medium;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+@mixin base-small-strong {
+  font-family: Montserrat;
+  font-style: Bold;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+@mixin base-caption {
+  font-family: Montserrat;
+  font-style: Medium;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+@mixin base-caption-strong {
+  font-family: Montserrat;
+  font-style: Bold;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+@mixin base-label-description {
+  font-family: Montserrat;
+  font-style: Medium;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+@mixin button-base {
+  font-family: Montserrat;
+  font-style: Bold;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+@mixin button-small {
+  font-family: Montserrat;
+  font-style: Bold;
+  font-weight: 700;
+  font-size: 0.625rem;
+  line-height: 1rem;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+}

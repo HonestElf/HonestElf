@@ -1,0 +1,46 @@
+@import '../../Theme/variables.scss';
+@import '../../Theme/typoghraphy.scss';
+
+.HomePageWrapper {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+  background-color: $background-primary-color;
+  align-self: center;
+
+  border-radius: 1rem;
+
+  .PageTitle {
+    @include headers-h1;
+  }
+
+  .ButtonContainer {
+    display: flex;
+    column-gap: 1rem;
+    .GoToLoginButton {
+      cursor: pointer;
+
+      background-color: $background-primary-color;
+      color: $text-primary-color;
+
+      padding: 0.625rem 2.5rem;
+      padding-left: 1.5rem;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      line-height: 1.25rem;
+
+      border-radius: 1rem;
+      border: none;
+
+      &:hover {
+        background-color: $background-primary-hover;
+        color: $system-primary-color;
+      }
+    }
+  }
+}

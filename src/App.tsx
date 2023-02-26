@@ -1,11 +1,14 @@
-import './App.css';
 import AppRouter from './router';
+import style from './App.module.scss';
+import ThemeProvider from './Theme/ThemeProvider';
 
 function App() {
   return (
-    <div className='App'>
-      <AppRouter />
-    </div>
+    <ThemeProvider>
+      <div className={style.AppWrapper}>
+        <AppRouter />
+      </div>
+    </ThemeProvider>
   );
 }
 

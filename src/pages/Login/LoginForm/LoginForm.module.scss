@@ -1,0 +1,45 @@
+@import '../../../Theme/variables.scss';
+@import '../../../Theme/typoghraphy.scss';
+
+.LoginFormWrapper {
+  background-color: $background-primary-color;
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+
+  .FormTitile {
+    @include headers-h1;
+    margin-bottom: 1rem;
+  }
+
+  .LoginForm {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.FormButton {
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: $background-secondary-color;
+  color: $text-secondary-color;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  align-self: center;
+  border: none;
+
+  &:hover {
+    background-color: $background-secondary-hover;
+  }
+}
+
+.ForgotButton {
+  cursor: pointer;
+
+  &:hover {
+    color: $system-primary-color;
+  }
+}

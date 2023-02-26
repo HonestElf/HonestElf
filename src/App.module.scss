@@ -1,0 +1,16 @@
+@import './Theme/variables.scss';
+@import './Theme/typoghraphy.scss';
+
+.AppWrapper {
+  @include base-body;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  padding: 2rem 1rem;
+  color: $text-primary-color;
+
+  background-image: url('./assets/images/loginback.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
